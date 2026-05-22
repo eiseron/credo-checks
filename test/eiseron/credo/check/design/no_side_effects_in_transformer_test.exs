@@ -1,10 +1,5 @@
-defmodule Holter.Credo.Check.Design.NoSideEffectsInTransformerTest do
+defmodule Eiseron.Credo.Check.Design.NoSideEffectsInTransformerTest do
   use ExUnit.Case, async: true
-
-  Code.require_file(
-    "../../../credo_checks/design/no_side_effects_in_transformer.ex",
-    __DIR__
-  )
 
   setup_all do
     Application.ensure_all_started(:credo)
@@ -12,7 +7,7 @@ defmodule Holter.Credo.Check.Design.NoSideEffectsInTransformerTest do
   end
 
   alias Credo.SourceFile
-  alias Holter.Credo.Check.Design.NoSideEffectsInTransformer
+  alias Eiseron.Credo.Check.Design.NoSideEffectsInTransformer
 
   test "passes when transformer function has no side effects" do
     source_file =

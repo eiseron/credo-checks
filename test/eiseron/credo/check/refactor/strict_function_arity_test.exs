@@ -1,7 +1,5 @@
-defmodule Holter.Credo.Check.Refactor.StrictFunctionArityTest do
+defmodule Eiseron.Credo.Check.Refactor.StrictFunctionArityTest do
   use ExUnit.Case, async: true
-
-  Code.require_file("../../../credo_checks/refactor/strict_function_arity.ex", __DIR__)
 
   setup_all do
     Application.ensure_all_started(:credo)
@@ -9,7 +7,7 @@ defmodule Holter.Credo.Check.Refactor.StrictFunctionArityTest do
   end
 
   alias Credo.SourceFile
-  alias Holter.Credo.Check.Refactor.StrictFunctionArity
+  alias Eiseron.Credo.Check.Refactor.StrictFunctionArity
 
   test "it allows functions with up to 3 parameters" do
     source_file =

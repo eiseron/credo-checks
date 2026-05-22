@@ -1,4 +1,4 @@
-defmodule Holter.Credo.Check.Design.NoSideEffectsInTransformer do
+defmodule Eiseron.Credo.Check.Design.NoSideEffectsInTransformer do
   use Credo.Check,
     base_priority: :high,
     category: :design,

@@ -1,4 +1,4 @@
-defmodule Holter.Credo.Check.Readability.NoComments do
+defmodule Eiseron.Credo.Check.Readability.NoComments do
   use Credo.Check,
     base_priority: :high,
     category: :readability,

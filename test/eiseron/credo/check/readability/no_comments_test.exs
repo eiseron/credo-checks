@@ -1,7 +1,5 @@
-defmodule Holter.Credo.Check.Readability.NoCommentsTest do
+defmodule Eiseron.Credo.Check.Readability.NoCommentsTest do
   use ExUnit.Case, async: true
-
-  Code.require_file("../../../credo_checks/readability/no_comments.ex", __DIR__)
 
   setup_all do
     Application.ensure_all_started(:credo)
@@ -9,7 +7,7 @@ defmodule Holter.Credo.Check.Readability.NoCommentsTest do
   end
 
   alias Credo.SourceFile
-  alias Holter.Credo.Check.Readability.NoComments
+  alias Eiseron.Credo.Check.Readability.NoComments
 
   @c "#"
 

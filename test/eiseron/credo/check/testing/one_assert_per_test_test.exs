@@ -1,7 +1,5 @@
-defmodule Holter.Credo.Check.Testing.OneAssertPerTestTest do
+defmodule Eiseron.Credo.Check.Testing.OneAssertPerTestTest do
   use ExUnit.Case, async: true
-
-  Code.require_file("../../../credo_checks/testing/one_assert_per_test.ex", __DIR__)
 
   setup_all do
     Application.ensure_all_started(:credo)
@@ -9,7 +7,7 @@ defmodule Holter.Credo.Check.Testing.OneAssertPerTestTest do
   end
 
   alias Credo.SourceFile
-  alias Holter.Credo.Check.Testing.OneAssertPerTest
+  alias Eiseron.Credo.Check.Testing.OneAssertPerTest
 
   test "it allows tests with one assertion" do
     source_file =

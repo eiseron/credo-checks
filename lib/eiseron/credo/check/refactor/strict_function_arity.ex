@@ -1,4 +1,4 @@
-defmodule Holter.Credo.Check.Refactor.StrictFunctionArity do
+defmodule Eiseron.Credo.Check.Refactor.StrictFunctionArity do
   use Credo.Check,
     base_priority: :high,
     category: :refactor,

@@ -1,4 +1,4 @@
-defmodule Holter.Credo.Check.Testing.OneAssertPerTest do
+defmodule Eiseron.Credo.Check.Testing.OneAssertPerTest do
   use Credo.Check,
     base_priority: :high,
     category: :consistency,
