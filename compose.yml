@@ -1,0 +1,15 @@
+services:
+  credo:
+    image: elixir:1.18
+    working_dir: /app
+    volumes:
+      - .:/app
+      - mix-cache:/root/.mix
+      - build:/app/_build
+      - deps:/app/deps
+    command: mix test
+
+volumes:
+  mix-cache:
+  build:
+  deps:
