@@ -10,7 +10,7 @@ Add to your project's `mix.exs`:
 def deps do
   [
     {:eiseron_credo_checks,
-     git: "https://gitlab.com/eiseron/stack/credo.git",
+     git: "https://github.com/eiseron/credo-checks.git",
      tag: "v0.1.0",
      only: [:dev, :test],
      runtime: false}
@@ -69,4 +69,8 @@ Limits each `test` block to a single `assert`/`refute`. Pushes apart concerns an
 
 ## License
 
-[FSL-1.1-ALv2](LICENSE.md) — Functional Source License, ALv2 Future License. Source available; converts to Apache 2.0 two years after each release.
+[Apache License 2.0](LICENSE.md) — open-source, permissive. See [NOTICE](NOTICE) for attribution.
+
+## Source
+
+Maintained at `gitlab.com/eiseron/stack/credo` (private, source of truth); mirrored to `github.com/eiseron/credo-checks` (public) for installation via `mix`.

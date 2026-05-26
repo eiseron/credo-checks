@@ -1,17 +1,15 @@
-eiseron_credo_checks — Custom Credo checks for Eiseron Products.
+eiseron_credo_checks
 
 Copyright 2025-present Eiseron and contributors.
 
-This software is licensed under the Functional Source License, Version 1.1,
-with Apache License 2.0 Future License (FSL-1.1-ALv2). See LICENSE.md for
-the full text.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not
+use this file except in compliance with the License. You may obtain a copy
+of the License at:
 
-In summary: the source code is available for any Permitted Purpose, including
-self-hosting for your own use and use in connection with professional services
-you provide to others. Use of the Software in a commercial product or service
-that competes with Eiseron's offerings is a Competing Use and is not permitted
-under this license. Each released version converts to the Apache License,
-Version 2.0 two years after publication.
+    http://www.apache.org/licenses/LICENSE-2.0
 
-The name "Eiseron" and the Eiseron logotype are trademarks of Eiseron and
-are not licensed under the FSL.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+License for the specific language governing permissions and limitations
+under the License.

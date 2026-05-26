@@ -2,7 +2,7 @@ defmodule EiseronCredoChecks.MixProject do
   use Mix.Project
 
   @version "0.1.0"
-  @source_url "https://gitlab.com/eiseron/stack/credo"
+  @source_url "https://github.com/eiseron/credo-checks"
 
   def project do
     [
@@ -32,8 +32,8 @@ defmodule EiseronCredoChecks.MixProject do
   defp package do
     [
       files: ~w(lib LICENSE.md NOTICE README.md mix.exs),
-      licenses: ["FSL-1.1-ALv2"],
-      links: %{"GitLab" => @source_url}
+      licenses: ["Apache-2.0"],
+      links: %{"GitHub" => @source_url}
     ]
   end
 end
