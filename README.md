@@ -67,10 +67,6 @@ Enforces a max function arity (default: 3). Functions with more arguments are fo
 
 Limits each `test` block to a single `assert`/`refute`. Pushes apart concerns and yields more granular failure signals.
 
-## Out of scope (for now)
-
-`RequireBodyguardPermit` and `RLSPolicyRequired` from Holter are not yet here; both have Holter-specific hardcodes (web path prefix, tenant column name, grandfather cutoff) and will land via a follow-up that introduces explicit `param_defaults` so each consumer can configure them.
-
 ## License
 
 [FSL-1.1-ALv2](LICENSE.md) — Functional Source License, ALv2 Future License. Source available; converts to Apache 2.0 two years after each release.
